@@ -1,0 +1,145 @@
+Language model created by QuickLM on Sat Sep 30 13:48:48 EDT 2023
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 30 sentences and 32 words
+
+\data\
+ngram 1=32
+ngram 2=60
+ngram 3=30
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-2.2553 ALBUS -0.2218
+-2.2553 AQUA -0.2218
+-2.2553 ATER -0.2218
+-2.2553 AUREUS -0.2218
+-2.2553 CAERULEUS -0.2218
+-2.2553 DISSILIUNT -0.2218
+-2.2553 FLAVUS -0.2218
+-2.2553 FRACTIONIS -0.2218
+-2.2553 FRIGUS -0.2218
+-2.2553 GRANDIS -0.2218
+-2.2553 IGNIS -0.2218
+-2.2553 IMMANIS -0.2218
+-2.2553 LIQUIDUS -0.2218
+-2.2553 MAGNUM -0.2218
+-2.2553 MATURIS -0.2218
+-2.2553 NIX -0.2218
+-2.2553 NOCERE -0.2218
+-2.2553 PARVUS -0.2218
+-2.2553 PRAESIDIUM -0.2218
+-2.2553 PROJECTILIS -0.2218
+-2.2553 PROPELLENTIBUS -0.2218
+-2.2553 ROSEUS -0.2218
+-2.2553 RUBRUM -0.2218
+-2.2553 SANITATEM -0.2218
+-2.2553 SERICUM -0.2218
+-2.2553 SESE -0.2218
+-2.2553 SPHAERA -0.2218
+-2.2553 SUI -0.2218
+-2.2553 VIRIDIS -0.2218
+-2.2553 VIS -0.2218
+
+\2-grams:
+-1.7782 <s> ALBUS 0.0000
+-1.7782 <s> AQUA 0.0000
+-1.7782 <s> ATER 0.0000
+-1.7782 <s> AUREUS 0.0000
+-1.7782 <s> CAERULEUS 0.0000
+-1.7782 <s> DISSILIUNT 0.0000
+-1.7782 <s> FLAVUS 0.0000
+-1.7782 <s> FRACTIONIS 0.0000
+-1.7782 <s> FRIGUS 0.0000
+-1.7782 <s> GRANDIS 0.0000
+-1.7782 <s> IGNIS 0.0000
+-1.7782 <s> IMMANIS 0.0000
+-1.7782 <s> LIQUIDUS 0.0000
+-1.7782 <s> MAGNUM 0.0000
+-1.7782 <s> MATURIS 0.0000
+-1.7782 <s> NIX 0.0000
+-1.7782 <s> NOCERE 0.0000
+-1.7782 <s> PARVUS 0.0000
+-1.7782 <s> PRAESIDIUM 0.0000
+-1.7782 <s> PROJECTILIS 0.0000
+-1.7782 <s> PROPELLENTIBUS 0.0000
+-1.7782 <s> ROSEUS 0.0000
+-1.7782 <s> RUBRUM 0.0000
+-1.7782 <s> SANITATEM 0.0000
+-1.7782 <s> SERICUM 0.0000
+-1.7782 <s> SESE 0.0000
+-1.7782 <s> SPHAERA 0.0000
+-1.7782 <s> SUI 0.0000
+-1.7782 <s> VIRIDIS 0.0000
+-1.7782 <s> VIS 0.0000
+-0.3010 ALBUS </s> -0.3010
+-0.3010 AQUA </s> -0.3010
+-0.3010 ATER </s> -0.3010
+-0.3010 AUREUS </s> -0.3010
+-0.3010 CAERULEUS </s> -0.3010
+-0.3010 DISSILIUNT </s> -0.3010
+-0.3010 FLAVUS </s> -0.3010
+-0.3010 FRACTIONIS </s> -0.3010
+-0.3010 FRIGUS </s> -0.3010
+-0.3010 GRANDIS </s> -0.3010
+-0.3010 IGNIS </s> -0.3010
+-0.3010 IMMANIS </s> -0.3010
+-0.3010 LIQUIDUS </s> -0.3010
+-0.3010 MAGNUM </s> -0.3010
+-0.3010 MATURIS </s> -0.3010
+-0.3010 NIX </s> -0.3010
+-0.3010 NOCERE </s> -0.3010
+-0.3010 PARVUS </s> -0.3010
+-0.3010 PRAESIDIUM </s> -0.3010
+-0.3010 PROJECTILIS </s> -0.3010
+-0.3010 PROPELLENTIBUS </s> -0.3010
+-0.3010 ROSEUS </s> -0.3010
+-0.3010 RUBRUM </s> -0.3010
+-0.3010 SANITATEM </s> -0.3010
+-0.3010 SERICUM </s> -0.3010
+-0.3010 SESE </s> -0.3010
+-0.3010 SPHAERA </s> -0.3010
+-0.3010 SUI </s> -0.3010
+-0.3010 VIRIDIS </s> -0.3010
+-0.3010 VIS </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ALBUS </s>
+-0.3010 <s> AQUA </s>
+-0.3010 <s> ATER </s>
+-0.3010 <s> AUREUS </s>
+-0.3010 <s> CAERULEUS </s>
+-0.3010 <s> DISSILIUNT </s>
+-0.3010 <s> FLAVUS </s>
+-0.3010 <s> FRACTIONIS </s>
+-0.3010 <s> FRIGUS </s>
+-0.3010 <s> GRANDIS </s>
+-0.3010 <s> IGNIS </s>
+-0.3010 <s> IMMANIS </s>
+-0.3010 <s> LIQUIDUS </s>
+-0.3010 <s> MAGNUM </s>
+-0.3010 <s> MATURIS </s>
+-0.3010 <s> NIX </s>
+-0.3010 <s> NOCERE </s>
+-0.3010 <s> PARVUS </s>
+-0.3010 <s> PRAESIDIUM </s>
+-0.3010 <s> PROJECTILIS </s>
+-0.3010 <s> PROPELLENTIBUS </s>
+-0.3010 <s> ROSEUS </s>
+-0.3010 <s> RUBRUM </s>
+-0.3010 <s> SANITATEM </s>
+-0.3010 <s> SERICUM </s>
+-0.3010 <s> SESE </s>
+-0.3010 <s> SPHAERA </s>
+-0.3010 <s> SUI </s>
+-0.3010 <s> VIRIDIS </s>
+-0.3010 <s> VIS </s>
+
+\end\
